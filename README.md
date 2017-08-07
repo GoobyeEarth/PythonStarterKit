@@ -37,5 +37,5 @@ eval "$(pyenv virtualenv-init -)"
 $ pyenv virtualenv 3.6.2 python-starter-kit
 
 # install libraries
-$ pip list --format columns
+
 ```
