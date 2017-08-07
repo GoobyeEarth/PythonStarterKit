@@ -30,4 +30,9 @@ $ anyenv install pyenv
 
 $ pyenv install 3.6.2
 
+$ vim ~/.bash_profile
+#####################################
+eval "$(pyenv virtualenv-init -)"
+#####################################
+$ pyenv virtualenv 3.6.2 python-starter-kit
 ```
