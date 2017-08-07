@@ -29,7 +29,7 @@ $ git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anye
 $ anyenv install pyenv
 
 $ pyenv install 3.6.2
-
+$ git clone https://github.com/yyuu/pyenv-virtualenv ~/.anyenv/envs/pyenv/plugins/pyenv-virtualenv
 $ vim ~/.bash_profile
 #####################################
 eval "$(pyenv virtualenv-init -)"
