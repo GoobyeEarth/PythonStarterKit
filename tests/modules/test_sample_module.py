@@ -1,7 +1,6 @@
 import unittest
 
-# from app.modules.sample_module import SampleModule
-from hoge import Hoge
+from app.modules.sample_module import SampleModule
 
 
 class TestSampleModule(unittest.TestCase):
@@ -9,6 +8,4 @@ class TestSampleModule(unittest.TestCase):
         # obj = SampleModule()
         # actual = obj.sample('test')
         # self.assertTrue('test test', actual)
-        obj = Hoge()
-        obj.hoge()
         self.assertTrue(True)
