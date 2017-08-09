@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-import sys
-import os
 import click
-
-sys.path.append(os.getcwd())
 
 from app.modules.sample_module import SampleModule
 
