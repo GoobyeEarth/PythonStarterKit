@@ -1,7 +1,12 @@
 # PythonStarterKit
-## TODO
 
-- http://blog-ja.sideci.com/entry/python-lint-pickup-5tools
+## What is this?
+This is a starter kit of python project to try libraries I frequently use.
+
+You can try these libraries
+- click (command line parser) https://github.com/pallets/click
+- hacking (flake8 plugins) https://github.com/openstack-dev/hacking
+- unittest (auto test tools) https://docs.python.org/3/library/unittest.html
 
 ## Make Environment (macOS Sierra version 10.12.6)
 ```
@@ -37,5 +42,5 @@ eval "$(pyenv virtualenv-init -)"
 $ pyenv virtualenv 3.6.2 python-starter-kit
 
 # install libraries
-
+$ pip install -r requirements.txt
 ```
