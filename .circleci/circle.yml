@@ -15,7 +15,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/repo
+    working_directory: ~/PythonStarterKit
 
     steps:
       - checkout
@@ -44,7 +44,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python3 -m unittest discover -s ./tests/  -p "test_*.py"
+            make test3
 
       - store_artifacts:
           path: test-reports
