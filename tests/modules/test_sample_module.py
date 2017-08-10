@@ -8,4 +8,3 @@ class TestSampleModule(unittest.TestCase):
         obj = SampleModule()
         actual = obj.sample('test')
         self.assertTrue('test test', actual)
-        self.assertTrue(True)
