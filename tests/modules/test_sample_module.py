@@ -1,6 +1,7 @@
 import unittest
 
-from app.modules.sample_module import SampleModule
+# from app.modules.sample_module import SampleModule
+from hoge import Hoge
 
 
 class TestSampleModule(unittest.TestCase):
