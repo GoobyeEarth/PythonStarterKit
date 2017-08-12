@@ -47,9 +47,11 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            make test
-
+#            make test
 
       - store_artifacts:
           path: test-reports
           destination: test-reports
+     - test:
+      override:
+        - make test
