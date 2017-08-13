@@ -7,4 +7,4 @@ class TestSampleModule(unittest.TestCase):
     def test_sample_module(self):
         obj = SampleModule()
         actual = obj.sample('test')
-        self.assertEqual('test  test', actual)
+        self.assertEqual('test test', actual)
