@@ -1,4 +1,4 @@
 class SampleModule(object):
     @classmethod
-    def sample(cls, text):
+    def sample(cls, text):  
         return text + ' ' + text
