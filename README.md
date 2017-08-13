@@ -8,6 +8,8 @@ You can try these libraries
 - hacking (flake8 plugins) https://github.com/openstack-dev/hacking
 - unittest (auto test tools) https://docs.python.org/3/library/unittest.html
 
+I've tested circleci test.
+
 ## Make Environment (macOS Sierra version 10.12.6)
 ```
 # install anyenv
